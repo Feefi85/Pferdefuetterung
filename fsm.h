@@ -21,7 +21,7 @@
 #define MOTOR_OPEN_TIME 6000 // in ms
 #define MOTOR_CLOSE_TIME 6000 // in ms
 
-// Make sure to always update names in state.cpp too!
+// Make sure to always update names in fsm.cpp too!
 enum State {
     FSM_INIT = 0,
     FSM_CLOSED,
